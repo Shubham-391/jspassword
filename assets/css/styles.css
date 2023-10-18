@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.visible{
+    display: none;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.w-95{
+    width: 95%;
+}
+
+.password{
+    border:none;
+    height: 27px;
+}
+
+.password:focus{
+    outline: none;
+}
+
+.box{
+    border: 1px solid black;
+    padding: 2px;
+    height: 29px;
+}
+
+.min-height-100vh{
+    min-height: 100vh;
+}
