@@ -1,6 +1,10 @@
 let a = document.getElementById("password");
 function show() {
-    if (a.type === "password") {
+    if (a.value === '') {
+        document.querySelector(".hide").style.display = "unset";
+        document.querySelector(".visible").style.display = "none";
+    }
+    else if (a.type === "password") {
         a.type = "text";
         document.querySelector(".hide").style.display = "none";
         document.querySelector(".visible").style.display = "unset";
@@ -10,4 +14,6 @@ function show() {
         document.querySelector(".visible").style.display = "none";
     }
 }
+
+
 
